@@ -1,0 +1,51 @@
+
+h2{
+    text-align: left;
+}
+nav {
+    text-align: left;
+    padding: 5px;
+    height: fit-content;
+    border: 3px solid black;
+    width: fit-content;
+    margin: 0;
+    background-color: blue;
+    border-radius: 10%;
+    float: left;
+}
+p1{
+    text-align: right;
+    float: right;
+    padding: 5px;
+    height: fit-content;
+    border: 3px solid black;
+    width: fit-content;
+    margin: 0;
+    background-color: blue;
+    border-radius: 10%;
+
+}
+
+p3{
+  
+    height: auto;
+    width: fit-content;
+}
+.game{
+    border: 3px solid black;
+    padding: 5px;
+    height: auto;
+    background-color: blue;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+body{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align:center;
+
+}
+footer{
+    text-align: center;
+}

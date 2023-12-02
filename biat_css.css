@@ -1,0 +1,44 @@
+body{
+    background-color: blueviolet;
+    color: aliceblue;
+ }
+h1{
+    text-align: center;
+}
+ 
+.p1{
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    content: center;
+    
+ }
+.form{
+   text-align: center; 
+    padding: 10px;
+    border: 3px solid black;
+    height: auto;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 10%; 
+    background-color: blue;
+ }
+.p2{  
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    line-height: 30px;
+}
+.nav{
+    height: 400px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+
+}
+footer{
+    text-align: center;
+}

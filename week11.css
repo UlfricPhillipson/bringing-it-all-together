@@ -1,0 +1,73 @@
+nav{
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10%;
+    max-width: fit-content;
+    margin: 0 auto;
+    float: left;
+    height: fit-content;
+
+    padding: 5px;
+    line-height: 30px;
+    background-color: blue;
+    float: left;
+}
+h2{
+    text-align: left;
+}
+.nav2{
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 10%;
+    max-width: fit-content;
+    margin: 0 auto;
+    height: 32px;
+    width: auto;
+    padding: 5px;
+    line-height: 30px;
+    background-color: blue;
+    float: right;
+
+    
+}
+#memeImage{
+    align-self: center;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    padding: 5px;
+    
+    animation-name: moving;
+    animation-duration: 0s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+    
+}
+
+#memeimage{
+    animation-name: pictureBackground;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+@keyframes moving {
+    from{
+        margin-left: 100px;
+     }
+     to {
+        margin-left: 500px;
+        margin-top: auto;
+    }  
+
+        0%   {background-color:red;}
+        25%  {background-color:yellow;}
+        50%  {background-color:blue;}
+        75%  {background-color:green;}
+        100% {background-color:red;}      
+}
